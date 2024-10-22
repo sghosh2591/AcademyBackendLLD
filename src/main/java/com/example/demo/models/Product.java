@@ -1,8 +1,14 @@
 package com.example.demo.models;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Product {
-    private int id;
-    private String name;
-    private double price;
-    private int quantity;
+     long id;
+     String name;
+     double price;
+     String description;
+     String imageUrl;
 }
