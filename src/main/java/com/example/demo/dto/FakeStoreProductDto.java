@@ -2,10 +2,12 @@ package com.example.demo.dto;
 
 import lombok.Getter;
 
+import java.util.UUID;
+
 @Getter
 public class FakeStoreProductDto {
 
-    long id;
+    UUID id;
     String title;
     double price;
     String description;
